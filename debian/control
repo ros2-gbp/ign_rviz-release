@@ -1,0 +1,12 @@
+Source: ros-rolling-ign-rviz-plugins
+Section: misc
+Priority: optional
+Maintainer: Sarathkrishnan Ramesh <sarathkrishnan99@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libignition-common4-dev, libignition-gui5-dev, libignition-math6-dev, libignition-rendering5-dev, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-geometry-msgs, ros-rolling-ign-rviz-common, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-tf2-msgs, ros-rolling-tf2-ros, ros-rolling-urdf, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ign-rviz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-common4-dev, libignition-gui5-dev, libignition-math6-dev, libignition-rendering5-dev, ros-rolling-geometry-msgs, ros-rolling-ign-rviz-common, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-tf2-msgs, ros-rolling-tf2-ros, ros-rolling-urdf, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: This package contains visualization plugins for ign-rviz
