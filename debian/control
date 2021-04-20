@@ -1,0 +1,12 @@
+Source: ros-galactic-ign-rviz
+Section: misc
+Priority: optional
+Maintainer: Sarathkrishnan Ramesh <sarathkrishnan99@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libignition-common4-dev, libignition-gui5-dev, libignition-math6-dev, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-geometry-msgs, ros-galactic-ign-rviz-common, ros-galactic-ign-rviz-plugins, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-msgs, ros-galactic-tf2-ros, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-ign-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-common4-dev, libignition-gui5-dev, libignition-math6-dev, ros-galactic-geometry-msgs, ros-galactic-ign-rviz-common, ros-galactic-ign-rviz-plugins, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-msgs, ros-galactic-tf2-ros, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Description: RViz developed using Ignition libraries
