@@ -1,1 +1,1 @@
-{"base": "d0a2546", "parent": "debian/rolling/ign_rviz_common", "previous": "ef78222", "trim": "", "trimbase": ""}
+{"base": "d64dd35", "parent": "debian/galactic/ign_rviz_common", "previous": "6787719", "trim": "", "trimbase": ""}
